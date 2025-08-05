@@ -1,0 +1,36 @@
+{
+  "name": "eafs",
+  "title": "Espadas Afiadas & Feitiços Sinistros",
+  "description": "Um sistema simples para Foundry VTT.",
+  "version": "0.0.1",
+  "minimumCoreVersion": "11",
+  "compatibleCoreVersion": "13",
+  "author": "Desenvolvedor IA",
+  "esmodules": ["scripts/eafs.js"],
+  "styles": ["styles/eafs.css"],
+  "languages": [
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "packs": [
+    {
+      "name": "regras",
+      "label": "Regras",
+      "path": "packs/regras",
+      "type": "JournalEntry",
+      "system": "eafs"
+    },
+    {
+      "name": "itens",
+      "label": "Itens",
+      "path": "packs/itens",
+      "type": "Item",
+      "system": "eafs"
+    }
+  ],
+  "primaryTokenAttribute": "vida"
+}
+

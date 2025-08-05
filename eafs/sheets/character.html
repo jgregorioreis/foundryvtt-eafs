@@ -1,0 +1,43 @@
+<form class="{{cssClass}} flexcol" autocomplete="off">
+  <header class="sheet-header">
+    <div class="form-group">
+      <label for="name">Nome:</label>
+      <input name="name" type="text" value="{{actor.name}}" placeholder="Nome do Personagem"/>
+    </div>
+  </header>
+
+  <section class="sheet-body">
+    <div class="form-group">
+      <label for="system.classe">Classe:</label>
+      <input name="system.classe" type="text" value="{{system.classe}}" placeholder="Classe do Personagem"/>
+    </div>
+
+    <div class="form-group">
+      <label for="system.vida">Vida:</label>
+      <input name="system.vida" type="number" value="{{system.vida}}" min="0" max="999"/>
+    </div>
+
+    <div class="form-group">
+      <label for="system.dadoAcao">Dado de Ação:</label>
+      <select name="system.dadoAcao">
+        <option value="d4" {{#if (eq system.dadoAcao "d4")}}selected{{/if}}>d4</option>
+        <option value="d6" {{#if (eq system.dadoAcao "d6")}}selected{{/if}}>d6</option>
+        <option value="d8" {{#if (eq system.dadoAcao "d8")}}selected{{/if}}>d8</option>
+        <option value="d10" {{#if (eq system.dadoAcao "d10")}}selected{{/if}}>d10</option>
+        <option value="d12" {{#if (eq system.dadoAcao "d12")}}selected{{/if}}>d12</option>
+        <option value="d20" {{#if (eq system.dadoAcao "d20")}}selected{{/if}}>d20</option>
+      </select>
+    </div>
+
+    <div class="form-group">
+      <label for="system.inventario">Inventário:</label>
+      <textarea name="system.inventario" rows="5" placeholder="Descreva os itens do personagem...">{{system.inventario}}</textarea>
+    </div>
+
+    <div class="form-group dice-buttons">
+      <button type="button" class="roll-d6">Rolar 1d6</button>
+      <button type="button" class="roll-d20">Rolar 1d20</button>
+    </div>
+  </section>
+</form>
+

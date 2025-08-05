@@ -1,0 +1,24 @@
+{
+  "EAFS": {
+    "SystemName": "Espadas Afiadas & Feitiços Sinistros",
+    "Character": "Personagem",
+    "Name": "Nome",
+    "Class": "Classe",
+    "Health": "Vida",
+    "ActionDie": "Dado de Ação",
+    "Inventory": "Inventário",
+    "RollD6": "Rolar 1d6",
+    "RollD20": "Rolar 1d20",
+    "Rules": "Regras",
+    "Items": "Itens",
+    "CharacterSheet": "Ficha de Personagem",
+    "PlaceholderName": "Nome do Personagem",
+    "PlaceholderClass": "Classe do Personagem",
+    "PlaceholderInventory": "Descreva os itens do personagem...",
+    "RollFlavor": {
+      "D6": "rolou 1d6",
+      "D20": "rolou 1d20"
+    }
+  }
+}
+

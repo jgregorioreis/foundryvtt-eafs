@@ -1,0 +1,15 @@
+{
+  "_id": "regra-teste",
+  "name": "Testando Regras",
+  "type": "JournalEntry",
+  "pages": [
+    {
+      "name": "Regras Gerais",
+      "type": "text",
+      "text": {
+        "content": "<h1>Testando as Regras de EA&FS</h1><p>Este é um conteúdo fictício para demonstração.</p><h2>Sistema de Jogo</h2><p>O sistema EA&FS utiliza dados de 6 e 20 lados para resolver ações. O Dado de Ação determina a capacidade do personagem em situações específicas.</p><h3>Atributos</h3><ul><li><strong>Vida:</strong> Representa a resistência e vitalidade do personagem</li><li><strong>Classe:</strong> Define o arquétipo e habilidades especiais</li><li><strong>Dado de Ação:</strong> Varia de d4 a d20 conforme a experiência</li></ul>"
+      }
+    }
+  ]
+}
+

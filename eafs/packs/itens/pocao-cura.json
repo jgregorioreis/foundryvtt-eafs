@@ -1,0 +1,19 @@
+{
+  "_id": "pocao-cura",
+  "name": "Poção de Cura",
+  "type": "Item",
+  "system": {
+    "description": "Uma poção mágica que restaura a vitalidade do usuário. Brilha com uma luz suave e tem sabor de ervas medicinais.",
+    "tipo": "Consumível",
+    "efeito": "Restaura 2d6 pontos de vida",
+    "peso": 1,
+    "valor": 25,
+    "propriedades": [
+      "Mágico",
+      "Consumível",
+      "Cura"
+    ]
+  },
+  "img": "icons/consumables/potions/potion-bottle-corked-red.webp"
+}
+

@@ -1,0 +1,18 @@
+{
+  "_id": "espada-exemplo",
+  "name": "Espada Afiada",
+  "type": "Item",
+  "system": {
+    "description": "Uma espada bem afiada e equilibrada, forjada por um mestre ferreiro. Causa dano extra em combate corpo a corpo.",
+    "tipo": "Arma",
+    "dano": "1d6+1",
+    "peso": 3,
+    "valor": 50,
+    "propriedades": [
+      "Afiada",
+      "Equilibrada"
+    ]
+  },
+  "img": "icons/weapons/swords/sword-broad-steel.webp"
+}
+
